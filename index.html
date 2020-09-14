@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Webworker example</title>
+
+    <link href="index.scss" rel="stylesheet" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <section class="wrapper">
+        <h1>Webworker Example</h1>
+
+        <section class="box-form">
+            <h3>Calculadora básica</h3>
+            <form id="form-inscricao">
+                <div class="form-field">
+                    <label for="name">Resultado:</label>
+                    <input type="text" name="result" id="result" maxlength="50" />
+                </div>
+                <div class="form-field">
+                    <div class="calculator-box" id="calculator-wrapper">
+                    </div>
+                </div>
+                <div class="form-field-button">
+                    <input type="button" name="btnSend" id="btnSend" value="Enviar" onclick="sendData()" />
+                    <input type="button" name="btnClear" id="btnClear" value="Limpar" onclick="clear()" />
+                </div>
+            </form>
+        </section>
+    </section>
+</body>
+
+</html>
