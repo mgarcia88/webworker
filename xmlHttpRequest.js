@@ -23,3 +23,7 @@ function showData(categorias){
         parentElement.append(child);    
     });
 }
+
+window.onerror = (error) => {
+    console.log("error 2");
+}
